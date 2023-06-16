@@ -41,10 +41,3 @@ export const MapItem = ({item, style}: MapType) => {
     </MapView>
   );
 };
-
-const styles = StyleSheet.create({
-  image: {
-    height: 25,
-    width: 25,
-  },
-});

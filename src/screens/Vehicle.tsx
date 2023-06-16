@@ -58,19 +58,19 @@ const styles = StyleSheet.create({
     padding: '5%',
     marginBottom: '2%',
     color: theme.colors.pureWhite,
-    fontSize: 20,
+    fontSize: theme.fontSizes.s,
     backgroundColor: theme.colors.greenPrimary,
     borderRadius: 10,
   },
   buttonText: {
     color: theme.colors.pureWhite,
-    fontSize: 20,
+    fontSize: theme.fontSizes.s,
   },
   text: {
     padding: '5%',
     marginBottom: '2%',
     color: theme.colors.pureWhite,
-    fontSize: 20,
+    fontSize: theme.fontSizes.s,
     backgroundColor: theme.colors.blue,
   },
 });

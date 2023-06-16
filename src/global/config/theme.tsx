@@ -1,7 +1,12 @@
 interface Theme {
   colors: Colors;
+  fontSizes: FontSizes;
 }
 
+interface FontSizes {
+  m: number;
+  s: number;
+}
 interface Colors {
   pureBlack: string;
   pureWhite: string;
@@ -30,6 +35,10 @@ const theme: Theme = {
     greyWithOpacity8: '#999EABCC',
     black: '#090F15',
     yellowPrimary: '#FDAB0E',
+  },
+  fontSizes: {
+    s: 20,
+    m: 25,
   },
 };
 

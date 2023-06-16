@@ -56,6 +56,6 @@ const dynamicStyles = StyleSheet.create((seleted: boolean) => ({
     backgroundColor: seleted
       ? theme.colors.greenPrimary
       : theme.colors.greyWithOpacity8,
-    padding: 20,
+    padding: '5%',
   },
 }));

@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     marginBottom: '5%',
   },
   name: {
-    fontSize: 25,
+    fontSize: theme.fontSizes.m,
     color: theme.colors.pureWhite,
   },
   applyButtonContainer: {
@@ -154,11 +154,11 @@ const styles = StyleSheet.create({
   },
   applyButtonTxt: {
     color: theme.colors.pureWhite,
-    fontSize: 20,
+    fontSize: theme.fontSizes.s,
   },
   categories: {
     color: theme.colors.pureBlack,
-    fontSize: 25,
+    fontSize: theme.fontSizes.m,
     backgroundColor: theme.colors.greenSecondary,
   },
   mapStyle: {
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     padding: '2%',
   },
   listHeaderComponentTxt: {
-    fontSize: 20,
+    fontSize: theme.fontSizes.s,
     color: theme.colors.pureWhite,
   },
 });
