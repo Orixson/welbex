@@ -27,20 +27,12 @@ const Settings = () => {
       <View style={styles.container}>
         <Pressable
           onPress={() => changeLanguage('en')}
-          style={
-            currentLanguage === 'en'
-              ? styles.buttonActive
-              : styles.buttonInactive
-          }>
+          style={dynamicStyles(currentLanguage === 'en').button}>
           <Text>Select English</Text>
         </Pressable>
         <Pressable
           onPress={() => changeLanguage('ru')}
-          style={
-            currentLanguage === 'ru'
-              ? styles.buttonActive
-              : styles.buttonInactive
-          }>
+          style={dynamicStyles(currentLanguage === 'ru').button}>
           <Text>Выбрать русский</Text>
         </Pressable>
       </View>
@@ -57,12 +49,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
-  buttonActive: {
-    backgroundColor: theme.colors.greenPrimary,
-    padding: 20,
-  },
-  buttonInactive: {
-    backgroundColor: theme.colors.greyWithOpacity8,
-    padding: 20,
-  },
 });
+
+const dynamicStyles = StyleSheet.create((seleted: boolean) => ({
+  button: {
+    backgroundColor: seleted
+      ? theme.colors.greenPrimary
+      : theme.colors.greyWithOpacity8,
+    padding: 20,
+  },
+}));
