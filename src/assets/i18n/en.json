@@ -1,0 +1,20 @@
+{
+  "translation": {
+    "apply": "Apply",
+    "categories": "Categories",
+    "category": "Category",
+    "Special transport": "Special transport",
+    "passenger": "Passenger",
+    "truck": "Truck",
+    "driver": "Driver",
+    "vehicle": "Vehicles",
+    "vehicles": "Vehicles",
+    "phone": "Phone",
+    "call": "Call",
+    "write": "Write",
+    "settings": "Settings",
+    "greeting": "Good afternoon, could you tell me what order number you have in the works at the moment?",
+    "maps": "View on map",
+    "list": "View list"
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "location": {"longitude": 40, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Truck",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 2,
+    "location": {"longitude": 30, "latitude": 21},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Passenger",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 3,
+    "location": {"longitude": 40, "latitude": -49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Truck",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 4,
+    "location": {"longitude": 70, "latitude": 59},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Special transport",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 5,
+    "location": {"longitude": 40, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Passenger",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 6,
+    "location": {"longitude": 40, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Passenger",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 7,
+    "location": {"longitude": 40, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Special transport",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 8,
+    "location": {"longitude": 30, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Truck",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 9,
+    "location": {"longitude": 90, "latitude": 49},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Special transport",
+    "phone": "+905427389745"
+  },
+  {
+    "id": 10,
+    "location": {"longitude": 40, "latitude": 19},
+    "driver": "Oleg Navigator",
+    "vehicle": "Ford",
+    "category": "Passenger",
+    "phone": "+905427389745"
+  }
+]

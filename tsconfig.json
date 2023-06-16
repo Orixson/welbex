@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": ["src/assets/*"],
+      "components/*": ["src/components/*"],
+      "constants/*": ["src/constants/*"],
+      "global/*": ["src/global/*"],
+      "models/*": ["src/models/*"],
+      "navigation/*": ["src/navigation/*"],
+      "screens/*": ["src/screens/*"],
+      "utils/*": ["src/utils/*"],
+      "types/*": ["src/navigation/types/*"]
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": ["src/**/*", "src/custom.d.ts"]
+}
