@@ -57,6 +57,7 @@ const VehiclesList = () => {
     );
   };
 
+  // this function is used to select the vehicle categories
   const check = (index: number, newValue: boolean) => {
     categories[index].checked = newValue;
     const checkedTypes = categories
@@ -66,6 +67,7 @@ const VehiclesList = () => {
     setSelectedCategories(checkedTypes);
   };
 
+  // this function applies the filtering of checked types of the vehicles
   const apply = () => {
     if (!!selectedCategories.length) {
       const filteredData = DATA.filter(item => {
@@ -78,7 +80,7 @@ const VehiclesList = () => {
       setData(DATA);
     }
   };
-
+  // this function is used to set the view of the vehicles from list to maps
   const changeView = () => {
     setView(!isList);
   };

@@ -6,7 +6,6 @@ import {
   ViewStyle,
 } from 'react-native';
 import React from 'react';
-import {Text} from './Text';
 import theme from 'global/config/theme';
 
 type ButtonType = {
