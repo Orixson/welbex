@@ -12,11 +12,15 @@ type ButtonType = {
   style?: ViewStyle;
   onPress: () => void;
   children?: React.ReactNode;
+  onLongPress?: () => void;
 };
 
-export const Button = ({children, style, onPress}: ButtonType) => {
+export const Button = ({children, style, onPress, onLongPress}: ButtonType) => {
   return (
-    <TouchableOpacity onPress={onPress} style={style ?? styles.container}>
+    <TouchableOpacity
+      onLongPress={onLongPress}
+      onPress={onPress}
+      style={style ?? styles.container}>
       {children}
     </TouchableOpacity>
   );

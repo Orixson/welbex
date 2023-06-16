@@ -22,10 +22,11 @@ type ItemProps = {
   isList: boolean;
   style: ViewStyle;
   t: (val: string) => React.ReactNode;
+  onLongPress?: () => void;
 };
 
-const Item = ({item, onPress, isList, style, t}: ItemProps) => (
-  <Button onPress={onPress} style={style}>
+const Item = ({item, onPress, isList, style, t, onLongPress}: ItemProps) => (
+  <Button onPress={onPress} onLongPress={onLongPress} style={style}>
     {isList ? (
       <>
         <Text style={styles.name} text={item.driver} />
@@ -51,6 +52,7 @@ const VehiclesList = () => {
         item={item}
         isList={isList}
         onPress={() => navigate('Vehicle', {item})}
+        onLongPress={() => {}}
         style={isList ? styles.item : styles.mapContainer}
         t={t}
       />

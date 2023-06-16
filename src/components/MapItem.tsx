@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, StyleSheet, ViewStyle} from 'react-native';
+import {Alert, ViewStyle} from 'react-native';
 import MapView, {Marker} from 'react-native-maps';
 import {mapStyle} from 'constants/mapStyle';
 import {defineTruck} from 'utils/defineTruck';
@@ -29,6 +29,7 @@ export const MapItem = ({item, style}: MapType) => {
       customMapStyle={mapStyle}>
       <Marker
         draggable
+        tracksViewChanges={false}
         coordinate={{
           latitude: latitude,
           longitude: longitude,

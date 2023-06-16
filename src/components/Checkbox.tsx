@@ -28,6 +28,10 @@ export const CheckBoxItem = ({
           onPress(index, newValue);
         }}
         style={styles.checkbox}
+        tintColors={{
+          true: theme.colors.yellowPrimary,
+          false: theme.colors.grey,
+        }}
       />
       <Text style={styles.checkboxText} text={`${t(category)}`} />
     </View>
